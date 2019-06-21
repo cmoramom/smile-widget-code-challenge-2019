@@ -15,6 +15,7 @@ The Smile Widget Company currently sells two types of smile widgets: a Big Widge
   * `>>> pip install -r requirements.txt`
 5. Run migrations.
   * `>>> python manage.py migrate`
+  note: before running the migration, if you are using localhost, change the Host value in settings.DATABASES, to localhost
 6. Load data from fixtures:
   * `>>> python manage.py loaddata 0001_fixtures.json`
 
