@@ -10,6 +10,22 @@ class Product(models.Model):
         return '{} - {}'.format(self.name, self.code)
 
 
+class ProductPrice(models.Model):
+
+    code = models.ForeignKey(Product, on_delete=models.CASCADE, help_text='ForeinKey to Product code')
+    price = models.PositiveIntegerField(help_text='Price of product in cents')
+    promo_date_start = models.DateField(help_text='date to apply the new price')
+    isActive = models.BooleanField(help_text='date to apply the new price')
+
+
+    def __str__(self):
+        return '{} - {}'.format(self.code, self.price)
+
+    def get_price(self, productCode = None, date=None, giftCardCode=None):
+        price = 0
+        return price
+
+
 class GiftCard(models.Model):
     code = models.CharField(max_length=30)
     amount = models.PositiveIntegerField(help_text='Value of gift card in cents')
