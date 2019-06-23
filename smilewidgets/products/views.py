@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework import generics
 
-# Create your views here.
+from .models import ProductPrice
+
+
+class ProductPriceList(generics.ListCreateAPIView):
+    queryset = ProductPrice
+    
+

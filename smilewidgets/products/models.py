@@ -17,13 +17,10 @@ class ProductPrice(models.Model):
     promo_date_start = models.DateField(help_text='date to apply the new price')
     isActive = models.BooleanField(help_text='date to apply the new price')
 
-
     def __str__(self):
         return '{} - {}'.format(self.code, self.price)
 
-    def get_price(self, productCode = None, date=None, giftCardCode=None):
-        price = 0
-        return price
+
 
 
 class GiftCard(models.Model):
