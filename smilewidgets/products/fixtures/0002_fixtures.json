@@ -1,0 +1,100 @@
+[
+{
+    "model": "products.productprice",
+    "pk": 1,
+    "fields": {
+        "code": 1,
+        "price": 800,
+        "promo_date_start": "2018-11-23",
+        "isActive": "True",
+        "isBlack_friday": "True"
+    }
+},
+    {
+    "model": "products.productprice",
+    "pk": 2,
+    "fields": {
+        "code": 1,
+        "price": 800,
+        "promo_date_start": "2018-11-24",
+        "isActive": "True",
+        "isBlack_friday": "True"
+    }
+},
+    {
+    "model": "products.productprice",
+    "pk": 3,
+    "fields": {
+        "code": 1,
+        "price": 800,
+        "promo_date_start": "2018-11-25",
+        "isActive": "True",
+        "isBlack_friday": "True"
+    }
+},
+{
+    "model": "products.productprice",
+    "pk": 4,
+    "fields": {
+
+        "code": 2,
+        "price": 0,
+        "promo_date_start": "2018-11-23",
+        "isActive": "True",
+        "isBlack_friday": "True"
+    }
+},
+    {
+    "model": "products.productprice",
+    "pk": 5,
+    "fields": {
+
+        "code": 2,
+        "price": 0,
+        "promo_date_start": "2018-11-24",
+        "isActive": "True",
+        "isBlack_friday": "True"
+    }
+},
+    {
+    "model": "products.productprice",
+    "pk": 6,
+    "fields": {
+
+        "code": 2,
+        "price": 0,
+        "promo_date_start": "2018-11-25",
+        "isActive": "True",
+        "isBlack_friday": "True"
+    }
+},
+    {
+    "model": "products.productprice",
+    "pk": 7,
+    "fields": {
+        "code": 1,
+        "price": 1200,
+        "promo_date_start": "2019-01-01",
+        "isActive": "True",
+        "isBlack_friday": "False"
+    }
+},
+    {
+    "model": "products.productprice",
+    "pk": 8,
+    "fields": {
+
+        "code": 2,
+        "price": 125,
+        "promo_date_start": "2019-01-01",
+        "isActive": "True",
+        "isBlack_friday": "False"
+    }
+
+
+}
+
+
+
+
+]
