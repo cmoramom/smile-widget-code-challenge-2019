@@ -6,7 +6,8 @@
         "code": 1,
         "price": 800,
         "promo_date_start": "2019-11-23",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "True"
     }
 },
     {
@@ -16,7 +17,8 @@
         "code": 1,
         "price": 800,
         "promo_date_start": "2019-11-24",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "True"
     }
 },
     {
@@ -26,7 +28,8 @@
         "code": 1,
         "price": 800,
         "promo_date_start": "2019-11-25",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "True"
     }
 },
 {
@@ -37,7 +40,8 @@
         "code": 2,
         "price": 0,
         "promo_date_start": "2019-11-23",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "True"
     }
 },
     {
@@ -48,7 +52,8 @@
         "code": 2,
         "price": 0,
         "promo_date_start": "2019-11-24",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "True"
     }
 },
     {
@@ -59,7 +64,8 @@
         "code": 2,
         "price": 0,
         "promo_date_start": "2019-11-25",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "True"
     }
 },
     {
@@ -69,18 +75,20 @@
         "code": 1,
         "price": 1200,
         "promo_date_start": "2019-01-01",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "False"
     }
 },
     {
     "model": "products.productprice",
-    "pk": 6,
+    "pk": 8,
     "fields": {
 
         "code": 2,
-        "price": 0,
+        "price": 125,
         "promo_date_start": "2019-01-01",
-        "isActive": "True"
+        "isActive": "True",
+        "isBlack_friday": "False"
     }
 
 

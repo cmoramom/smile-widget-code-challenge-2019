@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'products.apps.ProductsConfig',
-    'productAPI.apps.ProductapiConfig'
     'rest_framework',
 ]
 
@@ -85,6 +84,10 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': 5432  # default postgres port
     }
+}
+
+BLACK_FRIDAY = {
+    'Dates': ['11-23', '11-24', '11-25']
 }
 
 

@@ -1,5 +1,3 @@
-from abc import ABC
-
 from rest_framework import serializers
 from .models import ProductPrice
 
@@ -7,7 +5,7 @@ from .models import ProductPrice
 class ProductPriceSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductPrice
-        fields = ('price')
+        fields = ('price','')
     #
     # pk = serializers.IntegerField(read_only=True)
     # code = serializers.IntegerField(read_only=True)
