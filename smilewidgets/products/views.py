@@ -43,7 +43,7 @@ class ProductPriceGetPrice(APIView):
         if promo_date[5::] in black_friday_date:
 
             price = ProductPrice.objects.filter(code_id=product_code, promo_date_start=promo_date,
-                                                isBlack_friday=True).first()
+                                                isBlack_friday=True, isActive=True).first()
         else:
             # if the promo date sent by the user is not a black friday it  means that we need to check if there is
             # a price that starts in the 2019 but with isBlack_friday set to false
@@ -52,12 +52,12 @@ class ProductPriceGetPrice(APIView):
             end_date = f"{date.today().year}-{date.today().month + (12 - date.today().month)}-31"
 
             price = ProductPrice.objects.filter(code_id=product_code, promo_date_start__range=[start_date, end_date],
-                                                isBlack_friday=False).first()
+                                                isBlack_friday=False, isActive=True).first()
 
         if price is not None:
 
             gift_card = GiftCard.objects.filter(code=gift_card, date_start__lt=date.today(),
-                                                ).first()  # date_end__gte=date.today()
+                                                date_end__gte=date.today()).first()
 
             final_price = price.price
 
