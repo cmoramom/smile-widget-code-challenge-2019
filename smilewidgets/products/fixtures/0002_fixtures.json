@@ -5,7 +5,7 @@
     "fields": {
         "code": 1,
         "price": 800,
-        "promo_date_start": "2019-11-23",
+        "promo_date_start": "2018-11-23",
         "isActive": "True",
         "isBlack_friday": "True"
     }
@@ -16,7 +16,7 @@
     "fields": {
         "code": 1,
         "price": 800,
-        "promo_date_start": "2019-11-24",
+        "promo_date_start": "2018-11-24",
         "isActive": "True",
         "isBlack_friday": "True"
     }
@@ -27,7 +27,7 @@
     "fields": {
         "code": 1,
         "price": 800,
-        "promo_date_start": "2019-11-25",
+        "promo_date_start": "2018-11-25",
         "isActive": "True",
         "isBlack_friday": "True"
     }
@@ -39,7 +39,7 @@
 
         "code": 2,
         "price": 0,
-        "promo_date_start": "2019-11-23",
+        "promo_date_start": "2018-11-23",
         "isActive": "True",
         "isBlack_friday": "True"
     }
@@ -51,7 +51,7 @@
 
         "code": 2,
         "price": 0,
-        "promo_date_start": "2019-11-24",
+        "promo_date_start": "2018-11-24",
         "isActive": "True",
         "isBlack_friday": "True"
     }
@@ -63,7 +63,7 @@
 
         "code": 2,
         "price": 0,
-        "promo_date_start": "2019-11-25",
+        "promo_date_start": "2018-11-25",
         "isActive": "True",
         "isBlack_friday": "True"
     }
